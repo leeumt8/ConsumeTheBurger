@@ -1,0 +1,26 @@
+{
+  "name": "consumetheburger",
+  "version": "1.0.0",
+  "description": "ConsumeTheBurger is a Node.js app supported by mySQL and Handlebars. Check out the README.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeumt8/ConsumeTheBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeumt8/ConsumeTheBurger/issues"
+  },
+  "homepage": "https://github.com/leeumt8/ConsumeTheBurger#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
